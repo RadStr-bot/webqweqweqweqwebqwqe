@@ -1,0 +1,24 @@
+{
+  "json": {
+    "jsonIdKeyAlias": "iri",
+    "jsonTypeKeyAlias": "typ"
+  },
+  "data-specification": {
+    "publicBaseUrl": "https://ofn.gov.cz/dcat-ap-cz-hvd/draft/",
+    "skipStructureNameIfOnlyOne": false,
+    "useGenerators": {
+      "jsonExample": false,
+      "xml": false,
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false
+    },
+    "renameArtifacts": {
+      "http://example.com/generator/json-schema": "schéma.json",
+      "http://dataspecer.com/generator/json-ld": "kontext.jsonld"
+    }
+  }
+}

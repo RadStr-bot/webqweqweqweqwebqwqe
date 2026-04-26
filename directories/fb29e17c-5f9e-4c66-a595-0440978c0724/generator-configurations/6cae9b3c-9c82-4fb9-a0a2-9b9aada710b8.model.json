@@ -1,0 +1,24 @@
+{
+  "data-specification": {
+    "publicBaseUrl": "https://ofn.gov.cz/dcat-ap-cz-otev%C5%99en%C3%A1-data/draft/",
+    "renameArtifacts": {
+      "http://dataspecer.com/generator/json-ld": "kontext.jsonld",
+      "http://example.com/generator/json-schema": "schéma.json"
+    },
+    "skipStructureNameIfOnlyOne": false,
+    "useGenerators": {
+      "xml": false,
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "plantUML": false,
+      "jsonExample": false
+    }
+  },
+  "json": {
+    "jsonIdKeyAlias": "iri",
+    "jsonTypeKeyAlias": "typ"
+  }
+}

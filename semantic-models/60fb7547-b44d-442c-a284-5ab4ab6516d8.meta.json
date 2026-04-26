@@ -1,0 +1,21 @@
+{
+  "iri": "60fb7547-b44d-442c-a284-5ab4ab6516d8",
+  "projectIri": "60fb7547-b44d-442c-a284-5ab4ab6516d8",
+  "types": [
+    "http://dataspecer.com/resources/local/semantic-model"
+  ],
+  "userMetadata": {
+    "label": {
+      "en": "DCAT-AP-CZ-HVD"
+    },
+    "description": {
+      "en": "Semantic model for the profile"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-04-25T10:15:42.254Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

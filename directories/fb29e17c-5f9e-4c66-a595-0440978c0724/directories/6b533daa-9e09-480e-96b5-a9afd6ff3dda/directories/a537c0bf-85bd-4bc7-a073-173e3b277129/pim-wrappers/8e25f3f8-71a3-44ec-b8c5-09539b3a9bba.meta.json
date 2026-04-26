@@ -1,0 +1,19 @@
+{
+  "iri": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/8f9b8a53-9ce9-4a7c-ae52-93a24ba1f3d0/e464273c-46fe-465a-913c-cd5d5f364ee5",
+  "projectIri": "8e25f3f8-71a3-44ec-b8c5-09539b3a9bba",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "documentBaseUrl": "https://www.w3.org/ns/dcat3.ttl",
+    "label": {
+      "en": "dcat3"
+    }
+  },
+  "metadata": {
+    "creationDate": "2026-04-25T10:15:15.735Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}

@@ -1,0 +1,21 @@
+{
+  "iri": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049",
+  "projectIri": "fb29e17c-5f9e-4c66-a595-0440978c0724",
+  "types": [
+    "http://dataspecer.com/resources/local/package"
+  ],
+  "userMetadata": {
+    "label": {
+      "cs": "DCAT-AP-CZ: Datové sady otevřených dat"
+    },
+    "description": {},
+    "importedFromUrl": "https://ofn.gov.cz/dcat-ap-cz-otevřená-data/draft/cs/",
+    "documentBaseUrl": "https://ofn.gov.cz/dcat-ap-cz-otevřená-data/draft/cs/"
+  },
+  "metadata": {
+    "creationDate": "2026-04-25T10:15:14.849Z"
+  },
+  "_version": 1,
+  "_exportVersion": 2,
+  "_exportedBy": "http://localhost:3100"
+}
