@@ -1,6 +1,8 @@
 {
+  "type": "http://dataspecer.com/resources/local/semantic-model",
   "modelId": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/profile",
   "modelAlias": "DCAT-AP HVD 3.0.0",
+  "baseIri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#",
   "entities": {
     "https://mff-uk.github.io/specifications/dcat-ap-hvd#Dataset": {
       "iri": "Dataset",
@@ -1772,6 +1774,5 @@
         "relationship-profile"
       ]
     }
-  },
-  "baseIri": "https://mff-uk.github.io/specifications/dcat-ap-hvd#"
+  }
 }

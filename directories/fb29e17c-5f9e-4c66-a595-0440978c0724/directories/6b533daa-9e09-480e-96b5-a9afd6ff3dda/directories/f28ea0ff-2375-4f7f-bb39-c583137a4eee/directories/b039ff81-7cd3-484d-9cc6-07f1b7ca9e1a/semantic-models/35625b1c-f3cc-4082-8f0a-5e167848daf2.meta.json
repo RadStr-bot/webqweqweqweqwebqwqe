@@ -6,13 +6,12 @@
   ],
   "userMetadata": {
     "label": {
-      "cs": "Výchozí aplikační profil DCAT 3",
       "en": "DCAT 3 Default Application Profile"
     },
     "documentBaseUrl": "https://mff-uk.github.io/specifications/dcat-dap/"
   },
   "metadata": {
-    "creationDate": "2026-04-25T10:15:26.017Z"
+    "creationDate": "2026-04-26T15:55:57.534Z"
   },
   "_version": 1,
   "_exportVersion": 2,

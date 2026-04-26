@@ -1,6 +1,8 @@
 {
+  "type": "http://dataspecer.com/resources/local/semantic-model",
   "modelId": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/8f9b8a53-9ce9-4a7c-ae52-93a24ba1f3d0/vocabulary",
   "modelAlias": "DCAT-AP-CZ - terms of use",
+  "baseIri": "https://data.gov.cz/slovník/podmínky-užití/",
   "entities": {
     "https://data.gov.cz/slovník/podmínky-užití/databáze-jako-autorské-dílo": {
       "id": "https://data.gov.cz/slovník/podmínky-užití/databáze-jako-autorské-dílo",
@@ -344,6 +346,5 @@
       "child": "https://data.gov.cz/slovník/podmínky-užití/Specifikace",
       "parent": "http://www.w3.org/2002/07/owl#Thing"
     }
-  },
-  "baseIri": "https://data.gov.cz/slovník/podmínky-užití/"
+  }
 }

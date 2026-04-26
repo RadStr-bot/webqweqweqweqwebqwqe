@@ -1,6 +1,8 @@
 {
+  "type": "http://dataspecer.com/resources/local/semantic-model",
   "modelId": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/profile",
   "modelAlias": "DCAT-AP 3.0.1 based on DCAT 3 DAP",
+  "baseIri": "https://mff-uk.github.io/specifications/dcat-ap#",
   "entities": {
     "https://mff-uk.github.io/specifications/dcat-ap#Catalogue": {
       "iri": "Catalogue",
@@ -7580,6 +7582,5 @@
         "relationship-profile"
       ]
     }
-  },
-  "baseIri": "https://mff-uk.github.io/specifications/dcat-ap#"
+  }
 }

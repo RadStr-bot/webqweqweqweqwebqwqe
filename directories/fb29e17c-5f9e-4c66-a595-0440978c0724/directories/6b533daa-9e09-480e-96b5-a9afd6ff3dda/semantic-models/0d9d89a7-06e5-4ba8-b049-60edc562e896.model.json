@@ -1,6 +1,8 @@
 {
+  "type": "http://dataspecer.com/resources/local/semantic-model",
   "modelId": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/profile",
   "modelAlias": "DCAT-AP-CZ: Basic data model for data catalogs",
+  "baseIri": "https://ofn.gov.cz/dcat-ap-cz#",
   "entities": {
     "https://ofn.gov.cz/dcat-ap-cz#DatováSada": {
       "iri": "DatováSada",
@@ -4445,6 +4447,5 @@
         "relationship-profile"
       ]
     }
-  },
-  "baseIri": "https://ofn.gov.cz/dcat-ap-cz#"
+  }
 }

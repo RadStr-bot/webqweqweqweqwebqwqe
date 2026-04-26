@@ -1,8 +1,1307 @@
 {
+  "identifier": "9d542a55-db98-4161-82c5-88da92f0f56d",
+  "version": 1,
   "type": "http://dataspecer.com/resources/local/visual-model",
-  "modelId": "9d542a55-db98-4161-82c5-88da92f0f56d",
-  "visualEntities": {},
-  "modelColors": {
-    "vhfk9": "#ffd670"
-  }
+  "entities": [
+    {
+      "identifier": "9d542a55-db98-4161-82c5-88da92f0f56d-model-metadata-entity",
+      "type": [
+        "entity-model-type"
+      ],
+      "label": {
+        "en": "Anonymous model"
+      }
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Catalog",
+      "position": {
+        "x": 970,
+        "y": 1290,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "fvyah"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.catalog",
+      "waypoints": [
+        {
+          "x": 850,
+          "y": 1300,
+          "anchored": null
+        },
+        {
+          "x": 850,
+          "y": 1340,
+          "anchored": null
+        }
+      ],
+      "visualSource": "fvyah",
+      "visualTarget": "fvyah",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "f2ffg"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord",
+      "position": {
+        "x": 730,
+        "y": 1940,
+        "anchored": null
+      },
+      "content": [
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.description",
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.update-modificationDate",
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.listingDate",
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.title"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "lscnr"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.record",
+      "waypoints": [],
+      "visualSource": "fvyah",
+      "visualTarget": "lscnr",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "2v1tn"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+      "position": {
+        "x": 1430,
+        "y": 1130,
+        "anchored": null
+      },
+      "content": [
+        "https://mff-uk.github.io/specifications/dcat-dap#Dataset.temporalResolution",
+        "https://mff-uk.github.io/specifications/dcat-dap#Dataset.spatialResolution"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "drs3q"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.dataset",
+      "waypoints": [],
+      "visualSource": "fvyah",
+      "visualTarget": "drs3q",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "woht"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#Catalog&toIri=https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+      "waypoints": [],
+      "visualSource": "fvyah",
+      "visualTarget": "drs3q",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "dhnrg"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+      "position": {
+        "x": 830,
+        "y": 1610,
+        "anchored": null
+      },
+      "content": [
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.description",
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.versionInfo",
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.version",
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.keyword",
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.identifier",
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.update-modificationDate",
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.releaseDate",
+        "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.title"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "zni1x"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.primaryTopic",
+      "waypoints": [],
+      "visualSource": "lscnr",
+      "visualTarget": "zni1x",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "1g49"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.resource",
+      "waypoints": [],
+      "visualSource": "fvyah",
+      "visualTarget": "zni1x",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "10e69"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#Dataset&toIri=https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+      "waypoints": [],
+      "visualSource": "drs3q",
+      "visualTarget": "zni1x",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "uunpc"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Document",
+      "position": {
+        "x": 490,
+        "y": 1430,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "qkbbq"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.landingPage",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "qkbbq",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "2j3ep"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.homepage",
+      "waypoints": [],
+      "visualSource": "fvyah",
+      "visualTarget": "qkbbq",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "el3h"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#rdfs-Resource",
+      "position": {
+        "x": 1150,
+        "y": 1790,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "643l1"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.previous",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "6whs4"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.last",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "bvwkh"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.first",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "yj15f"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.replaces",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "r6crs"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasCurrentVersion",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "eafop"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasVersion",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "bq4edh"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.previousVersion",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "wq2pr"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.isReferencedBy",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "l3afp"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasPart",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "zo9wp"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.relation",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "jwbev"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.theme-category",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "7u71qf"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.themeTaxonomy",
+      "waypoints": [],
+      "visualSource": "fvyah",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "px1ri"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#DataService",
+      "position": {
+        "x": 1310,
+        "y": 1410,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "ukmg3"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#DataService.servesDataset",
+      "waypoints": [],
+      "visualSource": "ukmg3",
+      "visualTarget": "drs3q",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "4d1ua"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#DataService.endpointDescription",
+      "waypoints": [],
+      "visualSource": "ukmg3",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "zermo"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#DataService.endpointUrl",
+      "waypoints": [],
+      "visualSource": "ukmg3",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "b1bw2i"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Catalog.service",
+      "waypoints": [],
+      "visualSource": "fvyah",
+      "visualTarget": "ukmg3",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "eh9e2"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#DataService&toIri=https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource",
+      "waypoints": [],
+      "visualSource": "ukmg3",
+      "visualTarget": "zni1x",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "ge2zq"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#RightsStatement",
+      "position": {
+        "x": 1350,
+        "y": 2190,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "a3pwz"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.rights",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "a3pwz",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "hwpq5"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.accessRights",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "a3pwz",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "ltuwc"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Standard",
+      "position": {
+        "x": 1190,
+        "y": 2080,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "i3xss"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogRecord.conformsTo",
+      "waypoints": [],
+      "visualSource": "lscnr",
+      "visualTarget": "i3xss",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "cvxnyi"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.conformsTo",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "i3xss",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "zhh1f"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Kind",
+      "position": {
+        "x": 290,
+        "y": 1810,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "aoi2p"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.contactPoint",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "aoi2p",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "9g0t7"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Agent",
+      "position": {
+        "x": 560,
+        "y": 2240,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "qoqlc"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.publisher",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "qoqlc",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "y9yvi"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.creator",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "qoqlc",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "qjvggk"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#LinguisticSystem",
+      "position": {
+        "x": 1620,
+        "y": 1790,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "ykb4o"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.language",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "ykb4o",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "gi2oag"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Class",
+      "position": {
+        "x": 360,
+        "y": 2050,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "h5u93g"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.type-genre",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "h5u93g",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "14o0di"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Relationship",
+      "position": {
+        "x": 350,
+        "y": 1180,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "8a66t"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Relationship.relation",
+      "waypoints": [],
+      "visualSource": "8a66t",
+      "visualTarget": "zni1x",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "7851h"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.qualifiedRelation",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "8a66t",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "smqjv"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Attribution",
+      "position": {
+        "x": 530,
+        "y": 1040,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "3zozo"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.qualifiedAttribution",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "3zozo",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "d5l5l"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#LicenseDocument",
+      "position": {
+        "x": 1440,
+        "y": 1580,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "7n385"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.license",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "7n385",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "4c2qz"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Policy",
+      "position": {
+        "x": 1040,
+        "y": 2300,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "g5ymw"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.hasPolicy",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "g5ymw",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "20zb"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Distribution",
+      "position": {
+        "x": 2120,
+        "y": 1810,
+        "anchored": null
+      },
+      "content": [
+        "https://mff-uk.github.io/specifications/dcat-dap#Distribution.description",
+        "https://mff-uk.github.io/specifications/dcat-dap#Distribution.temporalResolution",
+        "https://mff-uk.github.io/specifications/dcat-dap#Distribution.spatialResolution",
+        "https://mff-uk.github.io/specifications/dcat-dap#Distribution.byteSize",
+        "https://mff-uk.github.io/specifications/dcat-dap#Distribution.update-modificationDate",
+        "https://mff-uk.github.io/specifications/dcat-dap#Distribution.releaseDate",
+        "https://mff-uk.github.io/specifications/dcat-dap#Distribution.title"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "v5pwt"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.conformsTo",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "i3xss",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "e3u6g"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.downloadUrl",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "1jqh3"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessService",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "ukmg3",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "e5u5ci"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessUrl",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "643l1",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "i7kfy"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.hasPolicy",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "g5ymw",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "un33k"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.rights",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "a3pwz",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "rbkzj"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.accessRights",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "a3pwz",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "nqgis"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.license",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "7n385",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "yqozz"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.distribution",
+      "waypoints": [],
+      "visualSource": "drs3q",
+      "visualTarget": "v5pwt",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "jur4e"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries",
+      "position": {
+        "x": 1700,
+        "y": 740,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "00nc3"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.inSeries",
+      "waypoints": [],
+      "visualSource": "drs3q",
+      "visualTarget": "00nc3",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "phs8tf"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://dataspecer.com/semantic-models/generalization?fromIri=https://mff-uk.github.io/specifications/dcat-dap#DatasetSeries&toIri=https://mff-uk.github.io/specifications/dcat-dap#Dataset",
+      "waypoints": [],
+      "visualSource": "00nc3",
+      "visualTarget": "drs3q",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "d6yj4"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Frequency",
+      "position": {
+        "x": 1950,
+        "y": 890,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "mowgu"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.frequency",
+      "waypoints": [],
+      "visualSource": "drs3q",
+      "visualTarget": "mowgu",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "7h4th"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Location",
+      "position": {
+        "x": 1100,
+        "y": 570,
+        "anchored": null
+      },
+      "content": [
+        "https://mff-uk.github.io/specifications/dcat-dap#Location.centroid",
+        "https://mff-uk.github.io/specifications/dcat-dap#Location.boundingBox"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "96kgs"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.spatial-geographicalCoverage",
+      "waypoints": [],
+      "visualSource": "drs3q",
+      "visualTarget": "96kgs",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "jv36s"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime",
+      "position": {
+        "x": 1530,
+        "y": 540,
+        "anchored": null
+      },
+      "content": [
+        "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.endDate",
+        "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.startDate"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "0he8lj"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.temporalCoverage",
+      "waypoints": [],
+      "visualSource": "drs3q",
+      "visualTarget": "0he8lj",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "64b7o"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Entity",
+      "position": {
+        "x": 2040,
+        "y": 1130,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "06y4e"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Dataset.wasGeneratedBy",
+      "waypoints": [],
+      "visualSource": "drs3q",
+      "visualTarget": "06y4e",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "9ttm0j"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#MediaType",
+      "position": {
+        "x": 2650,
+        "y": 1990,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "x637x"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.packagingFormat",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "x637x",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "5hs4b"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.compressionFormat",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "x637x",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "fjb94h"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.mediaType",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "x637x",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "p6f8si"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#MediaTypeOrExtent",
+      "position": {
+        "x": 2690,
+        "y": 1690,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "d9uyq"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.format",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "d9uyq",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "eks6i"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Concept",
+      "position": {
+        "x": 250,
+        "y": 1550,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "dt5y3"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#CatalogedResource.status",
+      "waypoints": [],
+      "visualSource": "zni1x",
+      "visualTarget": "dt5y3",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "d3nwag"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#ConceptScheme",
+      "position": {
+        "x": 3810,
+        "y": 0,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "lmxsa"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Person",
+      "position": {
+        "x": 2870,
+        "y": 0,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "hbfex"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Organization",
+      "position": {
+        "x": 3320,
+        "y": 0,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "zeide"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Role",
+      "position": {
+        "x": 0,
+        "y": 810,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "jnxha"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Attribution.hadRole",
+      "waypoints": [],
+      "visualSource": "3zozo",
+      "visualTarget": "jnxha",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "ijuwbi"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Relationship.hadRole",
+      "waypoints": [],
+      "visualSource": "8a66t",
+      "visualTarget": "jnxha",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "oxxvbj"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Instant",
+      "position": {
+        "x": 1900,
+        "y": 60,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "67w77"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.end",
+      "waypoints": [],
+      "visualSource": "0he8lj",
+      "visualTarget": "67w77",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "r0a4x"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#PeriodOfTime.beginning",
+      "waypoints": [],
+      "visualSource": "0he8lj",
+      "visualTarget": "67w77",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "zucayl"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Geometry",
+      "position": {
+        "x": 980,
+        "y": 0,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "s1w4i"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Location.geometry",
+      "waypoints": [],
+      "visualSource": "96kgs",
+      "visualTarget": "s1w4i",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "7nnzz"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#Checksum",
+      "position": {
+        "x": 2060,
+        "y": 2360,
+        "anchored": null
+      },
+      "content": [
+        "https://mff-uk.github.io/specifications/dcat-dap#Checksum.checksumValue"
+      ],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "bdyxl"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Distribution.checksum",
+      "waypoints": [],
+      "visualSource": "v5pwt",
+      "visualTarget": "bdyxl",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "qv9io"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/0a0f6381-8ec3-4040-941f-825c309241ca/6a7d3db8-d5f5-405a-a2a1-4a239e26d9ec/108cbe41-fc8e-42cb-99e8-9492e06d7099/profile",
+      "representedEntity": "https://mff-uk.github.io/specifications/dcat-dap#ChecksumAlgorithm",
+      "position": {
+        "x": 2360,
+        "y": 2800,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "egxef"
+    },
+    {
+      "model": "5e5aae98-4594-4b4c-9059-e64a65ef3562/44e5aa86-f24f-47a4-9dc4-5fe8cfb47049/3320aeaa-92b5-471e-bf8b-98eaf18e8c20/cd64117d-4878-4726-a6c9-308eb9af7f75/d5f60f04-6c4a-4613-b4b9-c951ff01778d/profile",
+      "representedRelationship": "https://mff-uk.github.io/specifications/dcat-dap#Checksum.algorithm",
+      "waypoints": [],
+      "visualSource": "bdyxl",
+      "visualTarget": "egxef",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "v6f4t"
+    }
+  ]
 }
